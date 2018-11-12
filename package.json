@@ -5,6 +5,7 @@
   "version": "0.3.0",
   "license": "MIT",
   "scripts": {
+    "start": "node server.js",
     "build": "webpack",
     "dev": "budo --live --verbose --port 3000 --open --dir dist/",
     "deploy": "ghpages",
@@ -26,6 +27,7 @@
   ],
   "dependencies": {
     "aframe": "^0.8.2",
-    "aframe-state-component": "^6.3.1"
+    "aframe-state-component": "^6.3.1",
+    "express": "^4.16.4"
   }
 }
